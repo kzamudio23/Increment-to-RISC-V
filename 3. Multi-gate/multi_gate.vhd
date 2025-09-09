@@ -17,5 +17,5 @@ architecture Behavioral of multi_gate is
 begin
     led1 <= A AND B;
     led2 <= C AND NOT D;
-    led3 <= (A AND B)OR (C AND NOT D);
+    led3 <= (A AND B) OR (C AND NOT D);
 end Behavioral;
